@@ -7,14 +7,14 @@
 
 Console.Write("Введите целое число которое будет больше ноля - ");
 var number = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine($"число {number}");
+//Console.WriteLine($"число {number}");
 if (number % 2 == 0)
     {
-        Console.Write("введенное число: {number} четное");
+        Console.Write($"введенное число: {number} четное");
     }
 else 
     {
-        Console.Write("введенное число: {number} нечетное");
+        Console.Write($"введенное число: {number} нечетное");
     }
 
 

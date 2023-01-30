@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Константин\\Desktop\\дрочь\\12\\12.csproj",
+      "projectUniqueName": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\12\\12.csproj",
       "projectName": "12",
-      "projectPath": "C:\\Users\\Константин\\Desktop\\дрочь\\12\\12.csproj",
+      "projectPath": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\12\\12.csproj",
       "packagesPath": "C:\\Users\\Константин\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Константин\\Desktop\\дрочь\\12\\obj\\",
+      "outputPath": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\12\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Константин\\AppData\\Roaming\\NuGet\\NuGet.Config"
