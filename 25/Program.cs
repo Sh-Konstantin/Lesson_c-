@@ -8,13 +8,14 @@
 Console.Write("Введите трехзначное число");
 Console.WriteLine();
 string? Number = Console.ReadLine();
-while (Number.Length != 3)
+while (Number is not null && Number.Length != 3)
     {
         Console.Write("Введите трехзначное число");
         Console.WriteLine();
         Number = Console.ReadLine();
     } 
-Console.WriteLine ( $"вторая цифра трехначного числа: {Number [1]}" );
+if (Number is not null) 
+    Console.WriteLine ($"вторая цифра трехначного числа: {Number [1]}" );
 
 
 
@@ -32,16 +33,18 @@ Console.WriteLine ( $"вторая цифра трехначного числа:
 */
 
 
-Console.Write("Введите трехзначное число");
+Console.Write("Введите число");
 Console.WriteLine();
-string? Number = Console.ReadLine();
-while (Number.Length < 3)
+string? Numb = Console.ReadLine();
+
+while (Numb is not null && Numb.Length < 3)
     {
-        Console.Write("Введите трехзначное число");
+        Console.Write("Третьей цифры нет");
         Console.WriteLine();
-        Number = Console.ReadLine();
+        Numb = Console.ReadLine();
     } 
-Console.WriteLine ( $"Третья цифра трехначного числа: {Number [2]}" );
+if (Numb is not null) 
+    Console.WriteLine ( $"Третья цифра трехначного числа: {Numb [2]}" );
 
 
 
@@ -52,7 +55,7 @@ Console.WriteLine ( $"Третья цифра трехначного числа:
 1 -> нет
 */
 
-Console.Write("Введите цифру из предложенных вариантов: 1 2 3 4 5 6 6 7 , которая обозначает день недели");
+Console.Write("Введите цифру из предложенных вариантов: 1 2 3 4 5 6 7 , которая обозначает день недели");
 Console.WriteLine();
 int NumberDay = Convert.ToInt32(Console.ReadLine());
 if (NumberDay == 6 | NumberDay == 7 )

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\Lesson_C#\\5\\5.csproj": {}
+    "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\5\\5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\Lesson_C#\\5\\5.csproj": {
+    "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\5\\5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\Lesson_C#\\5\\5.csproj",
+        "projectUniqueName": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\5\\5.csproj",
         "projectName": "5",
-        "projectPath": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\Lesson_C#\\5\\5.csproj",
+        "projectPath": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\5\\5.csproj",
         "packagesPath": "C:\\Users\\Константин\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\Lesson_C#\\5\\obj\\",
+        "outputPath": "C:\\Users\\Константин\\Documents\\GitHub\\Lesson_c-\\5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Константин\\AppData\\Roaming\\NuGet\\NuGet.Config"
